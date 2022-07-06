@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "outDir": "build/types",
+    "module": "esnext",
+    "target": "ESNext",
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2018", "dom", "ESNext"],
+    "moduleResolution": "node",
+    "strict": true,
+    "types": ["parse-json"]
+  },
+  "include": ["src/lib"],
+  "exclude": ["src/lib/**/tests"]
+}
