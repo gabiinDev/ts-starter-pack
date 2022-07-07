@@ -1,8 +1,11 @@
-import MyLibrary from "../lib";
+import MyLibrary from "./class.demo";
+
 const myLibraryInstance = new MyLibrary();
 
-document.querySelector("body").innerHTML = `<h1>Hello World!</h1>`;
+const body = document.querySelector("body");
+if (body)
+  body.innerHTML = `<h1>Hello World!</h1>`;
 
 console.log("myLibraryInstance", myLibraryInstance);
 
-myLibraryInstance.myMethod(); 
+myLibraryInstance.myMethod();

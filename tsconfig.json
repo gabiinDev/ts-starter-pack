@@ -9,10 +9,11 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "suppressImplicitAnyIndexErrors": true,
-    "lib": ["es2018", "dom", "ESNext"],
+    "lib": ["dom", "ESNext"],
     "moduleResolution": "node",
     "strict": true,
-    "types": ["parse-json"]
+    "types": ["parse-json", "numbro", "lodash", "jquery", "bootstrap"],
+    "typeRoots": ["./src/lib/external/typings/**/*.d.ts"]
   },
   "include": ["src/lib"],
   "exclude": ["src/lib/**/tests"]
